@@ -126,6 +126,14 @@ body {
 
 
 /* layout */
+.page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    /* This ensures some space around the card on mobile */
+}
 
 .product-container {
     width: 90%;
